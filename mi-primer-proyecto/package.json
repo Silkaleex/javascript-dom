@@ -1,0 +1,21 @@
+{
+  "name": "hola-mundo",
+  "version": "1.0.0",
+  "description": "Mi primer proyecton de  Javascript con Node ",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "saludar": "node hola_mundo.js",
+    "pantalla":"Hola, este es mi primer ejercicio con Node en el mejor Bootcamp de programación del mundo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Silkaleex"
+  },
+  "keywords": [
+    "1234"
+  ],
+  "author": "Silkaleex",
+  "license": "ISC"
+}
