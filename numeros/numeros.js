@@ -14,4 +14,6 @@ let c = 0.2;
 console.log(b + c);
 
 //Pequeño Truco para valores reales
-math.round((0.1 + 0.2) * 100) / 100;
+let d = (0.3 * 100) / 100;
+let e = Math.round(0.3 * 100) / 100;
+console.log(d);
