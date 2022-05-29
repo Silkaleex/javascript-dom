@@ -6,18 +6,18 @@ console.log(arreglo);
 //Posicionamiento en Arrays
 //Array[indice] => 0,1,2,3,4,5,6,...
 
-consoel.log(arreglo[0]);
-consoel.log(arreglo[1]);
-consoel.log(arreglo[2]);
-consoel.log(arreglo[3]);
+console.log(arreglo[0]);
+console.log(arreglo[1]);
+console.log(arreglo[2]);
+console.log(arreglo[3]);
 
 //Metodos para introducir valores
 //.push()unshift() => Mutan el valor a nuestro Array
-//Valores al final .push()
+//Añade o agrega Valores al final .push()
 arreglo.push("perro", "libro");
 console.log(arreglo);
 
-//Valores al principio .unshift()
+//Añade o agrega Valores al principio .unshift()
 arreglo.unshift("r", true);
 console.log(arreglo);
 
