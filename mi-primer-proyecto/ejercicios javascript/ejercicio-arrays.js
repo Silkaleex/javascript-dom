@@ -1,5 +1,3 @@
-const { map } = require("mathjs");
-
 const lista = ["pan", "leche", "fruta", "zumo", "garbanzos"];
 lista.push("Aceite de girasol");
 console.log(lista);
