@@ -33,4 +33,4 @@ console.log(fecha2.getMonth() + 1); //Para que enero no sea 0 y empieze por 1
 console.log(fecha2.getFullYear());
 console.log(fecha2);
 //.toLocaleDateString()
-console.log(fecha2.toLocaleDateString());
+console.log(fecha2.toLocaleDateString("en-US"));
