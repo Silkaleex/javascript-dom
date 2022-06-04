@@ -1,5 +1,5 @@
-const familia = ["Bea", "Agustin", "Maria"];
+const familia = new Set(["Bea", "Agustin", "Maria"]);
 familia.add("Alejandro");
+familia.add("Javascript");
 
-const javascript = familia;
-console.log(javascript);
+console.log(familia);
