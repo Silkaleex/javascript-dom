@@ -4,7 +4,7 @@
 //hay objetos que se podran escribir pero no se identifican igual
 //Por ejemplo:{id:5}
 const array = [1, 2, 3, 4, 5, 6, 1, 2, 5, "hola", { id: 5 }, { id: 5 }];
-const miSet = new setInterval(array);
+const miSet = new Array(array);
 
 console.log(array);
 console.log(miSet);
