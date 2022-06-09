@@ -1,9 +1,7 @@
 function valor() {
-  valorprincipal(true);
+  return true;
 }
-
-console.log(valor);
-
+//un metodo mas largo de hacerlo
 const tiempo = setTimeout(espera, 5000);
 
 function espera() {
@@ -13,17 +11,20 @@ function espera() {
 function arrancando() {
   clearTimeout(tiempo);
 }
-
-function* creando() {
-  let i = 0;
+//Creandolo de una forma mas rapida y entendible
+async function damePromesa() {
+  return setTimeout(() => console.log("Hola soy una promesa"), 5000);
+}
+///////////////////////////////////////////////
+function* Pares() {
+  let id = 0;
   while (true) {
-    id++;
-    if ((id = !2)) {
-      return id;
-    }
-    yield i;
+    yield (id += 2);
   }
 }
 
-const verificando = creando();
-console.log(verificando);
+const verificando = Pares();
+console.log(verificando.next().value);
+console.log(verificando.next().value);
+console.log(verificando.next().value);
+console.log(verificando.next().value);
