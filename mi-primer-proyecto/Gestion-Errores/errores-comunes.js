@@ -1,5 +1,3 @@
-const { number } = require("mathjs");
-
 const miFuncion = (val) => {
   if (typeof val === "number") {
     return 2 * val;

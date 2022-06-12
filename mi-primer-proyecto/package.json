@@ -17,5 +17,8 @@
     "1234"
   ],
   "author": "Silkaleex",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.7.2"
+  }
 }
