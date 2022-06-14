@@ -1,12 +1,12 @@
-class estudiante {
-  nombre;
-}
-class asignaturas {
-  javascript;
-  Html;
-  Css;
-  obtenDatos() {
-    super(estudiante);
-    console.log(`Hola me llamo ${nombre} y estudio ${asignaturas}`);
+class Estudiante {
+  nombre = "Alejandro";
+  asignaturas = ["Javascript", "CSS3", "HTML5"];
+  recogerDatos() {
+    return {
+      nombre: this.nombre,
+      asignaturas: this.asignaturas,
+    };
   }
 }
+const estudiando = new Estudiante();
+console.log(estudiando.recogerDatos());
